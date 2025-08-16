@@ -1,19 +1,54 @@
 {
+  "version": "0.1.0",
   "profiles": {
     "sales": {
-      "label": "Sales Call"
+      "label": "Sales Call",
+      "metrics": {
+        "talk_time_balance": true,
+        "questions_vs_monologues": true,
+        "objection_handling": true,
+        "closing_language": true
+      },
+      "scorecard": ["rapport", "needs_analysis", "value_proposition", "closing"]
     },
     "interview": {
-      "label": "Interview/Podcast"
+      "label": "Interview/Podcast",
+      "metrics": {
+        "question_quality": true,
+        "guest_talk_time_share": true,
+        "filler_words": true,
+        "topic_depth": true
+      },
+      "scorecard": ["storytelling", "insight_depth", "flow"]
     },
     "coaching": {
-      "label": "Coaching/Therapy"
+      "label": "Coaching/Therapy",
+      "metrics": {
+        "active_listening": true,
+        "open_questions": true,
+        "empathy_markers": true,
+        "interruptions": true
+      },
+      "scorecard": ["trust_building", "goal_clarity", "reflection"]
     },
     "meeting": {
-      "label": "Meeting/Team Call"
+      "label": "Meeting/Team Call",
+      "metrics": {
+        "talk_time_distribution": true,
+        "action_items_detected": true,
+        "decision_points": true,
+        "time_management": true
+      },
+      "scorecard": ["clarity", "decisions", "alignment", "follow_up"]
     },
     "memo": {
-      "label": "Voice Memo (solo)"
+      "label": "Voice Memo (solo)",
+      "metrics": {
+        "clarity": true,
+        "focus": true,
+        "emotional_markers": true
+      },
+      "scorecard": ["structure", "reflection", "brevity"]
     }
   }
 }
