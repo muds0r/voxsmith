@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "sales": {
+      "label": "Sales Call"
+    },
+    "interview": {
+      "label": "Interview/Podcast"
+    },
+    "coaching": {
+      "label": "Coaching/Therapy"
+    },
+    "meeting": {
+      "label": "Meeting/Team Call"
+    },
+    "memo": {
+      "label": "Voice Memo (solo)"
+    }
+  }
+}

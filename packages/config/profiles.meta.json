@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "updated_at": "2025-08-16T17:12:50.000816Z",
+  "language": {
+    "auto_detect": true,
+    "report_matches_detected_language": true,
+    "fallback_translation_to_english": true
+  },
+  "profiles_available": [
+    "sales",
+    "interview",
+    "coaching",
+    "meeting",
+    "memo"
+  ]
+}

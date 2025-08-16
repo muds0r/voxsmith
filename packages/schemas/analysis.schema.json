@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "required": [
+    "file",
+    "speakers",
+    "metrics",
+    "scorecard",
+    "strengths",
+    "improvements",
+    "todos",
+    "voice_summary_text"
+  ],
+  "properties": {
+    "file": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "duration_sec": {
+          "type": "number"
+        }
+      }
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "talk_time_sec": {
+            "type": "number"
+          },
+          "share_pct": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "scorecard": {
+      "type": "object"
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "improvements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "todos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "voice_summary_text": {
+      "type": "string"
+    }
+  }
+}
